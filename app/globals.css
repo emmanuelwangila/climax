@@ -4,11 +4,11 @@
 
 /* base styles */
 body {
-  background: #ebf0fa;
-  @apply text-gray-500 m-8;
+  background: white;
+  @apply text-blue-400 m-8;
 }
 h1, h2 {
-  @apply font-bold text-primary text-lg;
+  @apply font-bold text-primary font-bold m-1 ;
 }
 main {
   @apply max-w-5xl my-12 mx-auto px-8;
@@ -24,16 +24,20 @@ p > a {
 nav {
   @apply
     pb-4
-    border-b-2 border-gray-200
+    pt-4
+    border-b-2 border-blue-200
     flex items-center gap-5 
     my-10 mx-auto 
-    max-w-5xl;
+    max-w-5xl
+    rounded-md
+    bg-gray-100
+    font-bold;
 }
 nav a, nav span {
-  @apply text-gray-500;
+  @apply text-blue-400;
 }
 nav a:hover {
-  @apply text-black;
+  @apply text-green-400;
 }
 main nav {
   @apply border-0;
