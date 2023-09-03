@@ -24,7 +24,7 @@ export default function Home() {
     <div className="flex justify-start m-2 p-2 rounded-md ">
       <div className="flex ">
       <Link href="/tickets">
-      <button className="bg-green-500 m-2 p-4 text-white rounded-md flex w-[100%] h-[20%]">View Tickets</button>
+      <button className="bg-green-500 m-2 p-4 text-white text-xs rounded-md flex w-[100%] h-[25%]">View Tickets</button>
        </Link>
       </div>
       <div className="flex  m-2 p-2 ">
